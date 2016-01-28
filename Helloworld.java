@@ -6,7 +6,6 @@ public class Helloworld {
 
 	System.out.println("Hello0Farid said hi, World");
 	System.out.println("git plz build");
-	dqsjdjkqsndjk
 	System.out.println("final, World");
    }
 }
