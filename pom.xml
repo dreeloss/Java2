@@ -5,11 +5,11 @@
   <distributionManagement>
     
     
-     <snapshotRepository>
+     <Repository>
          <id>nexus</id>   
          <name>nexus repository</name>
          <url>http://localhost:8000/nexus/service/local/staging/deploy/maven2</url>
-    </snapshotRepository>  
+    </Repository>  
   
   
   <snapshotRepository>
