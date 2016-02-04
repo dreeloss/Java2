@@ -2,14 +2,14 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   
-  <distributionMAnagement>
+  <distributionManagement>
   <snapshotRepository>
     <id>nexus</id>
     <name>Nexus release</name>
     <url>http://localhost:8000/nexus/content/repositories/snapshots</url>
   </snapshotRepository>  
-    
-  </distributionMAnagement>
+  </distributionManagement>
+  
   <groupId>com</groupId>
   <artifactId>Appli</artifactId>
   <packaging>jar</packaging>
