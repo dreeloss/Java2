@@ -20,6 +20,7 @@
   
   </distributionManagement>
   
+  
   <groupId>com</groupId>
   <artifactId>Appli</artifactId>
   <packaging>jar</packaging>
