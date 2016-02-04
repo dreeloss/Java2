@@ -3,11 +3,21 @@
   <modelVersion>4.0.0</modelVersion>
   
   <distributionManagement>
+    
+    
+     <snapshotRepository>
+         <id>nexus</id>   
+         <name>nexus repository</name>
+         <url>http://localhost:8000/nexus/service/local/staging/deploy/maven2</url>
+    </snapshotRepository>  
+  
+  
   <snapshotRepository>
-    <id>nexus</id>   
-    <name>nexus</name>
-    <url>http://localhost:8000/nexus/content/repositories/snapshots</url>
+       <id>nexus</id>   
+       <name>nexus</name>
+       <url>http://localhost:8000/nexus/content/repositories/snapshots</url>
   </snapshotRepository>  
+  
   </distributionManagement>
   
   <groupId>com</groupId>
